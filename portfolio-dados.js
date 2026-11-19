@@ -31,7 +31,7 @@
 const PORTFOLIO = {
   videos: [
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "Vídeo de apresentação do site", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/video-site.mp4" },
-    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "Vídeo de apresentação do site", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/video-site.mp4" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
@@ -50,17 +50,19 @@ const PORTFOLIO = {
     { tipo: "Carrossel", formato: "4:5", titulo: "Fissura, trinca ou rachadura?", cliente: "Henrique Valadares · Engenharia Civil", imagens: [
       "assets/portfolio/henrique-valadares/carrossel-01-capa.jpg", "assets/portfolio/henrique-valadares/carrossel-02-fissura.jpg", "assets/portfolio/henrique-valadares/carrossel-03-trinca.jpg", "assets/portfolio/henrique-valadares/carrossel-04-rachadura.jpg", "assets/portfolio/henrique-valadares/carrossel-05-sinais.jpg", "assets/portfolio/henrique-valadares/carrossel-06-vistoria.jpg",
     ] },
-    { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
+    { tipo: "Carrossel", formato: "4:5", titulo: "Gelato, sorvete ou sorbet?", cliente: "Brisa · Gelateria Artesanal", imagens: [
+      "assets/portfolio/brisa-gelateria/carrossel-01-capa.jpg", "assets/portfolio/brisa-gelateria/carrossel-02-sorvete.jpg", "assets/portfolio/brisa-gelateria/carrossel-03-gelato.jpg", "assets/portfolio/brisa-gelateria/carrossel-04-sorbet.jpg", "assets/portfolio/brisa-gelateria/carrossel-05-sinais.jpg", "assets/portfolio/brisa-gelateria/carrossel-06-prove.jpg",
+    ] },
     { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
     { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
     // post de imagem única: só imagem (.png, .jpg, .svg, .webp)
     { tipo: "Post de imagem única", formato: "4:5", titulo: "Post para o Instagram", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/post-unico.jpg" },
-    { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Post de imagem única", formato: "4:5", titulo: "Post para o Instagram", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/post-unico.jpg" },
     { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
     // stories: vídeo (.mp4) ou imagem (.png, .jpg, .svg, .webp)
     { tipo: "Stories", formato: "9:16", titulo: "Story para o Instagram", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/story.jpg" },
-    { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Stories", formato: "9:16", titulo: "Story para o Instagram", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/story.jpg" },
     { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
   ],
@@ -68,7 +70,7 @@ const PORTFOLIO = {
   // Design · para a marca
   marca: [
     { tipo: "Logo & identidade", formato: "1:1", titulo: "Logo e identidade visual", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/logo-identidade.png" },
-    { tipo: "Logo & identidade", formato: "1:1", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Logo & identidade", formato: "1:1", titulo: "Logo e identidade visual", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/logo-identidade.png" },
     { tipo: "Logo & identidade", formato: "1:1", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Logo & identidade", formato: "1:1", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Banner", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
@@ -81,7 +83,7 @@ const PORTFOLIO = {
 
   sites: [
     { tipo: "Site institucional", formato: "16:9", titulo: "Site de engenharia civil", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/site.jpg" },
-    { tipo: "Site institucional", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Site institucional", formato: "16:9", titulo: "Site de gelateria", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/site.jpg" },
     { tipo: "Landing page", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Landing page", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
   ],
