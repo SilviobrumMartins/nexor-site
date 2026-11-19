@@ -84,7 +84,7 @@ const PORTFOLIO = {
   sites: [
     { tipo: "Site institucional", formato: "16:9", titulo: "Site de engenharia civil", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/site.jpg" },
     { tipo: "Site institucional", formato: "16:9", titulo: "Site de gelateria", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/site.jpg" },
-    { tipo: "Landing page", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Landing page", formato: "16:9", titulo: "Landing page de curso online", cliente: "Bolo que Vende · Curso de Confeitaria", arquivo: "assets/portfolio/bolo-que-vende/site.jpg" },
     { tipo: "Landing page", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
   ],
 };
