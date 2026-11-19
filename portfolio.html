@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio — Nexor</title>
+  <meta name="description" content="Portfólio da Nexor: vídeos editados para Reels, TikTok e YouTube, carrosséis, posts, stories, logos e sites institucionais e landing pages.">
+  <link rel="icon" href="assets/nexor-icone-perfil.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="top">
+    <div class="wrap top__in">
+      <a href="index.html" class="top__logo" aria-label="Nexor — início"><img src="assets/nexor-logo.svg" alt="Nexor" width="112" height="27"></a>
+      <span class="tc" aria-hidden="true"><i></i><span id="tc">00:00:00:00</span></span>
+      <nav class="menu" id="menu">
+        <a href="index.html#video">Vídeo</a>
+        <a href="portfolio.html" aria-current="page">Portfólio</a>
+        <a href="index.html#design">Design</a>
+        <a href="index.html#sites">Sites</a>
+        <a href="index.html#contato">Contato</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+
+  <!-- Os trabalhos NÃO ficam aqui no HTML: eles são listados no portfolio-dados.js -->
+  <main id="inicio">
+
+    <!-- ABERTURA -->
+    <section class="hero">
+      <div class="wrap">
+        <p class="mono hero__kicker">Nexor · portfólio completo</p>
+        <h1 class="hero__title"><span>Portfólio<b class="dot"></b></span></h1>
+
+        <div class="hero__foot">
+          <div class="hero__about">
+            <p><strong>Tudo o que já passou pela nossa mesa, separado pelas três áreas da Nexor.</strong> Vídeos editados para as redes sociais e o YouTube, artes para o feed e para a marca, e sites no ar.</p>
+            <p>Escolha uma área aqui embaixo para ir direto até ela.</p>
+          </div>
+          <div class="hero__links">
+            <a href="index.html#contato" class="big-link">Pedir um orçamento <span>→</span></a>
+            <a href="index.html" class="small-link">← voltar para o início</a>
+          </div>
+        </div>
+
+        <p class="mono hero__index"><span>Áreas do portfólio</span><span>clique para ir direto</span></p>
+      </div>
+
+      <div class="track-area" id="trackArea">
+        <div class="ruler" id="ruler" aria-hidden="true"></div>
+        <nav class="clips" aria-label="Áreas do portfólio">
+          <a href="#videos" class="clip clip--video">
+            <span class="mono clip__tc">01 · 00:01:00</span>
+            <strong>Vídeos</strong>
+            <span class="clip__sub">Em pé e deitados</span>
+            <span class="clip__go" aria-hidden="true">→</span>
+          </a>
+          <a href="#design" class="clip clip--design">
+            <span class="mono clip__tc">02 · 00:02:00</span>
+            <strong>Design</strong>
+            <span class="clip__sub">Redes sociais e marca</span>
+            <span class="clip__go" aria-hidden="true">→</span>
+          </a>
+          <a href="#sites" class="clip clip--sites">
+            <span class="mono clip__tc">03 · 00:03:00</span>
+            <strong>Sites</strong>
+            <span class="clip__sub">Institucional e landing page</span>
+            <span class="clip__go" aria-hidden="true">→</span>
+          </a>
+        </nav>
+        <div class="clips clips--audio" aria-hidden="true"><div class="wave"></div></div>
+        <div class="playhead" id="playhead" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- VÍDEOS -->
+    <section class="block block--ink" id="videos">
+      <div class="wrap">
+        <div class="block__bar mono"><span>00:01:00:00</span><span>01 — Vídeos</span></div>
+        <div class="block__head">
+          <h2>Edição<br>de vídeo</h2>
+          <p>Reels, TikTok, Shorts, Stories e vídeos para o YouTube. Dê o play (com som) em qualquer um para assistir.</p>
+        </div>
+        <div class="full" id="fullVideos"></div>
+      </div>
+    </section>
+
+    <!-- DESIGN -->
+    <section class="block" id="design">
+      <div class="wrap">
+        <div class="block__bar mono"><span>00:02:00:00</span><span>02 — Design</span></div>
+        <div class="block__head">
+          <h2>Design</h2>
+          <p>As artes que vão para as redes sociais todo dia e o que dá cara à marca: logo, identidade, banners e fotos tratadas.</p>
+        </div>
+
+        <p class="mono menu-group" id="redes">Para as redes sociais</p>
+        <div class="full" id="fullRedes"></div>
+
+        <p class="mono menu-group" id="marca">Para a marca</p>
+        <div class="full" id="fullMarca"></div>
+      </div>
+    </section>
+
+    <!-- SITES -->
+    <section class="block block--ink" id="sites">
+      <div class="wrap">
+        <div class="block__bar mono"><span>00:03:00:00</span><span>03 — Sites</span></div>
+        <div class="block__head">
+          <h2>Sites</h2>
+          <p>Sites institucionais, que apresentam a empresa e passam confiança, e landing pages, feitas para vender uma coisa específica.</p>
+        </div>
+        <div class="full" id="fullSites"></div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="block block--end" id="contato">
+      <div class="wrap">
+        <div class="block__bar mono"><span>00:04:00:00</span><span>Contato</span></div>
+        <div class="end">
+          <div class="end__left">
+            <h2 class="end__title">Gostou?<br>Bora<br>conversar?</h2>
+          </div>
+          <div class="end__left end__right">
+            <p class="end__text">Conta o que a sua empresa precisa (vídeo, design, site ou tudo junto) e a gente te manda uma proposta.</p>
+            <a href="https://wa.me/5500000000000" data-wa class="end__wa" target="_blank" rel="noopener">Chamar no WhatsApp <span>→</span></a>
+            <ul class="end__other mono">
+              <li><a href="index.html#contato">ou deixe um recado no site</a></li>
+              <li><a href="mailto:contato@nexor.com.br">contato@nexor.com.br</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bottom">
+    <div class="wrap bottom__in">
+      <img src="assets/nexor-logo-fundo-escuro.svg" alt="Nexor" width="96" height="23">
+      <span class="mono">Edição · Design · Sites</span>
+      <span class="mono">© <span id="year"></span> Nexor</span>
+    </div>
+  </footer>
+
+  <script src="portfolio-dados.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

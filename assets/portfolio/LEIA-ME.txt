@@ -1,0 +1,18 @@
+PORTFÓLIO DA NEXOR
+
+Coloque aqui os vídeos (.mp4 ou .webm) e imagens (.jpg, .png, .webp) do portfólio.
+Depois, abra o arquivo portfolio-dados.js e escreva o nome do arquivo em "arquivo",
+na lista certa:
+
+  videos -> vídeo em pé (9:16) e vídeo deitado (16:9)   [toca com som, no clique]
+  redes  -> carrossel: várias imagens, uma por tela (vira carrossel de arrastar)
+            post de imagem única: só imagem (.png, .jpg, .svg, .webp)
+            stories: vídeo ou imagem                    [vídeo roda sozinho, sem som]
+  marca  -> logo e identidade, banner, tratamento de foto
+  sites  -> site institucional, landing page
+
+A página inicial mostra só uma amostra de cada área (os trabalhos prontos primeiro).
+A página portfolio.html mostra tudo.
+
+Dica: vídeos de design e de sites curtos (15 a 40 segundos) e leves (até uns 8 MB)
+deixam o site rápido.

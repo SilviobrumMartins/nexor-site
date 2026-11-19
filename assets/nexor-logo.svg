@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 8 150 36" width="150" height="36">
+  <defs>
+    <clipPath id="nx-xh"><rect x="60" y="12" width="32" height="28"/></clipPath>
+  </defs>
+  <g fill="none" stroke="#141414" stroke-width="7">
+    <!-- n -->
+    <path d="M3.5 12V40M3.5 24a9 9 0 0 1 18 0V40"/>
+    <!-- e -->
+    <path d="M33.5 26H55.5A11 11 0 1 0 52.9 33.1"/>
+    <!-- x -->
+    <path clip-path="url(#nx-xh)" d="M65.57 9L87.43 43M87.43 9L65.57 43"/>
+    <!-- r -->
+    <path d="M131.5 12V40M131.5 25a10 10 0 0 1 10-10h2"/>
+  </g>
+  <!-- o: o ponto de gravação -->
+  <circle cx="108.5" cy="26" r="14.5" fill="#ff4a1c"/>
+</svg>

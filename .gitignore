@@ -1,0 +1,21 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Claude Code
+.claude/
+
+# Dependências e builds (caso venham a existir)
+node_modules/
+dist/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+~$*

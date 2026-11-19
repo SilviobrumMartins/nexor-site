@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nexor — Edição de vídeo, design e sites</title>
+  <meta name="description" content="A Nexor edita os vídeos da sua empresa para Reels, TikTok e YouTube, cria carrosséis, banners e logos, e faz sites institucionais e landing pages.">
+  <link rel="icon" href="assets/nexor-icone-perfil.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="top">
+    <div class="wrap top__in">
+      <a href="#inicio" class="top__logo" aria-label="Nexor — início"><img src="assets/nexor-logo.svg" alt="Nexor" width="112" height="27"></a>
+      <span class="tc" aria-hidden="true"><i></i><span id="tc">00:00:00:00</span></span>
+      <nav class="menu" id="menu">
+        <a href="#video">Vídeo</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="#design">Design</a>
+        <a href="#sites">Sites</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+
+  <main id="inicio">
+
+    <!-- ABERTURA -->
+    <section class="hero">
+      <div class="wrap">
+        <p class="mono hero__kicker">Nexor · estúdio criativo para empresas</p>
+
+        <h1 class="hero__title">
+          <span>Vídeo,</span>
+          <span>design</span>
+          <span class="hero__last">e sites<b class="dot"></b>
+            <span class="hand hero__note">tudo num<br>lugar só
+              <svg class="hero__arrow" viewBox="0 0 90 60" aria-hidden="true"><path d="M84 6C62 4 30 14 14 46M6 34l8 13 14-6"/></svg>
+            </span>
+          </span>
+        </h1>
+
+        <div class="hero__foot">
+          <div class="hero__about">
+            <p><strong>A Nexor é um estúdio criativo que cuida de toda a presença da sua empresa na internet: do vídeo para o Instagram ao site no ar.</strong> São três frentes, e você pode contratar uma só ou todas juntas:</p>
+            <ul class="hero__what">
+              <li><b>Vídeo</b><span>Edição de Reels, TikTok, Shorts e vídeos para o YouTube, com corte, legenda, trilha e cor.</span></li>
+              <li><b>Design</b><span>Carrosséis, posts, stories, logo e identidade visual, para a sua marca ser reconhecida de longe.</span></li>
+              <li><b>Sites</b><span>Site institucional, o endereço oficial da empresa, que passa confiança para quem te pesquisa no Google. E landing page, a página feita para vender um produto, serviço ou campanha. Tudo pensado para funcionar bem no celular.</span></li>
+            </ul>
+            <p>Você manda o material (vídeo gravado no celular, foto, aquela ideia solta) e a gente devolve tudo pronto para postar, ou com o site no ar.</p>
+          </div>
+          <div class="hero__links">
+            <a href="#contato" class="big-link">Pedir um orçamento <span>→</span></a>
+            <a href="#servicos" class="small-link">ou veja o que a gente faz ↓</a>
+          </div>
+        </div>
+
+        <p class="mono hero__index"><span>O que a gente faz</span><span>3 serviços · clique para ver</span></p>
+      </div>
+
+      <!-- linha do tempo: cada clipe é um serviço e leva para a seção dele -->
+      <div class="track-area" id="trackArea">
+        <div class="ruler" id="ruler" aria-hidden="true"></div>
+        <nav class="clips" id="servicos" aria-label="Serviços da Nexor">
+          <a href="#video" class="clip clip--video">
+            <span class="mono clip__tc">01 · 00:01:00</span>
+            <strong>Edição de vídeo</strong>
+            <span class="clip__sub">Reels, TikTok, Stories e YouTube</span>
+            <span class="clip__go" aria-hidden="true">→</span>
+          </a>
+          <a href="#design" class="clip clip--design">
+            <span class="mono clip__tc">02 · 00:03:00</span>
+            <strong>Design</strong>
+            <span class="clip__sub">Carrosséis, posts, stories e logo</span>
+            <span class="clip__go" aria-hidden="true">→</span>
+          </a>
+          <a href="#sites" class="clip clip--sites">
+            <span class="mono clip__tc">03 · 00:04:00</span>
+            <strong>Sites</strong>
+            <span class="clip__sub">Site institucional e landing page</span>
+            <span class="clip__go" aria-hidden="true">→</span>
+          </a>
+        </nav>
+        <div class="clips clips--audio" aria-hidden="true"><div class="wave"></div></div>
+        <div class="playhead" id="playhead" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- VÍDEO -->
+    <section class="block" id="video">
+      <div class="wrap">
+        <div class="block__bar mono"><span>00:01:00:00</span><span>01 — Edição de vídeo</span></div>
+        <div class="block__head">
+          <h2>Edição<br>de vídeo</h2>
+          <p>Você grava do jeito que der: celular, câmera, tela do computador. A gente corta o que sobra, organiza a história, coloca legenda, trilha, cor e efeito na medida, e entrega no formato certo de cada rede.</p>
+        </div>
+
+        <div class="formats">
+          <article class="format">
+            <div class="format__frame format__frame--v"><span class="mono">9:16</span></div>
+            <div class="format__text">
+              <h3>Vídeo em pé</h3>
+              <p class="mono format__where">Reels · TikTok · Shorts · Stories</p>
+              <p>Curto, rápido e feito para segurar quem está rolando o feed. Os primeiros segundos são os que mais importam, então é aí que a gente capricha.</p>
+              <ul class="dash">
+                <li>cortes no ritmo da fala ou da música</li>
+                <li>legenda animada (a maioria assiste sem som)</li>
+                <li>gancho no começo e chamada no final</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="format">
+            <div class="format__frame format__frame--h"><span class="mono">16:9</span></div>
+            <div class="format__text">
+              <h3>Vídeo deitado</h3>
+              <p class="mono format__where">YouTube · institucional · aulas</p>
+              <p>Vídeo mais longo, na horizontal. Aqui o trabalho é deixar a história fluir: tirar as pausas, os "éééé", as partes repetidas e manter quem assiste até o fim.</p>
+              <ul class="dash">
+                <li>edição, áudio limpo e correção de cor</li>
+                <li>vinheta de abertura e textos na tela</li>
+                <li>thumbnail (a capinha que faz clicar)</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFÓLIO DE VÍDEOS
+         Os vídeos NÃO ficam aqui no HTML: eles são listados no portfolio-dados.js.
+         Aqui aparece só uma amostra; a lista completa fica em portfolio.html. -->
+    <section class="block block--ink" id="portfolio">
+      <div class="wrap">
+        <div class="block__bar mono"><span>00:02:00:00</span><span>01 — Vídeo · portfólio</span></div>
+        <div class="block__head">
+          <h2>Portfólio</h2>
+          <p>Alguns vídeos que passaram pela nossa mesa de edição. É só dar o play (com som) para ver o antes virar depois.</p>
+        </div>
+
+        <div class="cases__group">
+          <p class="mono cases__label"><span>Vídeo em pé</span><span>9:16 · Reels, TikTok, Shorts</span></p>
+          <div class="cases" id="casesVideoV" data-tipo="Vídeo em pé"></div>
+        </div>
+        <div class="cases__group">
+          <p class="mono cases__label"><span>Vídeo deitado</span><span>16:9 · YouTube</span></p>
+          <div class="cases" id="casesVideoH" data-tipo="Vídeo deitado"></div>
+          <a class="more-link" href="portfolio.html#videos">Clique para ver mais <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESIGN -->
+    <section class="block" id="design">
+      <div class="wrap">
+        <div class="block__bar mono"><span>00:03:00:00</span><span>02 — Design</span></div>
+        <div class="block__head">
+          <h2>Design</h2>
+          <p>As artes da sua empresa: o que vai para as redes sociais todo dia e a logo, que é a cara da marca. A ideia é que qualquer post seu seja reconhecido antes mesmo de alguém ler o nome da empresa.</p>
+        </div>
+
+        <p class="mono menu-group">Para as redes sociais</p>
+        <ol class="menu-list">
+          <li>
+            <span class="mono menu-list__n">01</span>
+            <h3>Carrossel</h3>
+            <p>Aquele post de arrastar para o lado. Ótimo para explicar, ensinar e vender sem textão na legenda.</p>
+            <span class="mono menu-list__spec">até 10 telas · 1080×1350</span>
+          </li>
+          <li>
+            <span class="mono menu-list__n">02</span>
+            <h3>Post de imagem única</h3>
+            <p>Uma arte só, direto ao ponto: promoção, aviso, novidade, frase, data comemorativa.</p>
+            <span class="mono menu-list__spec">feed · 1080×1350</span>
+          </li>
+          <li>
+            <span class="mono menu-list__n">03</span>
+            <h3>Stories</h3>
+            <p>Artes em pé para os stories: bastidor, enquete, contagem regressiva, link para o site ou o WhatsApp.</p>
+            <span class="mono menu-list__spec">9:16 · 1080×1920</span>
+          </li>
+        </ol>
+
+        <!-- Os trabalhos são listados no portfolio-dados.js (redes) -->
+        <div class="cases__group">
+          <p class="mono cases__label"><span>Portfólio · redes sociais</span><span>carrossel · post · stories</span></p>
+          <div class="cases cases--compact" id="casesRedes"></div>
+          <a class="more-link" href="portfolio.html#redes">Clique para ver mais <span>→</span></a>
+        </div>
+
+        <p class="mono menu-group">Para a marca</p>
+        <ol class="menu-list">
+          <li>
+            <span class="mono menu-list__n">04</span>
+            <h3>Logo &amp; identidade</h3>
+            <p>Logo novo ou uma repaginada no antigo, com as cores e fontes da marca definidas para usar em tudo.</p>
+            <span class="mono menu-list__spec">SVG · PNG · guia</span>
+          </li>
+          <li>
+            <span class="mono menu-list__n">05</span>
+            <h3>Banner</h3>
+            <p>Para o site, anúncio, capa do YouTube, do Facebook, da loja virtual. Se tem um espaço, a gente preenche.</p>
+            <span class="mono menu-list__spec">vários tamanhos</span>
+          </li>
+          <li>
+            <span class="mono menu-list__n">06</span>
+            <h3>Tratamento de foto</h3>
+            <p>Foto de produto com fundo recortado, cor acertada, luz corrigida e aquele retoque que faz diferença.</p>
+            <span class="mono menu-list__spec">produto · equipe · ambiente</span>
+          </li>
+        </ol>
+
+        <!-- Os trabalhos são listados no portfolio-dados.js (marca) -->
+        <div class="cases__group">
+          <p class="mono cases__label"><span>Portfólio · marca</span><span>logo · banner · foto</span></p>
+          <div class="cases" id="casesMarca"></div>
+          <a class="more-link" href="portfolio.html#marca">Clique para ver mais <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SITES -->
+    <section class="block block--ink" id="sites">
+      <div class="wrap">
+        <div class="block__bar mono"><span>00:04:00:00</span><span>03 — Sites</span></div>
+        <div class="block__head">
+          <h2>Site institucional<br>ou landing page?</h2>
+          <p>Muita gente chama tudo de "site", mas são coisas diferentes, feitas para objetivos diferentes. Aqui vai a diferença, sem complicação.</p>
+        </div>
+
+        <div class="sketches">
+          <figure class="sketch">
+            <div class="sketch__art">
+            <svg viewBox="0 0 300 210" class="sketch__svg" aria-hidden="true">
+              <path class="s" d="M8 10C90 7 210 9 292 11L290 200C200 202 90 199 10 201Z"/>
+              <path class="s" d="M9 32C100 30 200 33 291 31"/>
+              <circle class="s" cx="22" cy="21" r="4"/><circle class="s" cx="36" cy="21" r="4"/>
+              <path class="s" d="M24 48h58v40H25zM90 48c18 1 40 0 58 0v40H91zM156 49h58l-1 39h-57zM222 48h56v40h-56z"/>
+              <path class="s faint" d="M24 110c80-2 170 1 254 0M24 128c60 1 120-1 180 0M24 146c90-1 150 1 220 0M24 164c40 0 90-1 130 0"/>
+              <path class="o" d="M228 176h50v16h-50z"/>
+            </svg>
+            <span class="hand sketch__n1">início · sobre · serviços · contato</span>
+            <span class="hand sketch__n2">↓ whatsapp, mapa,<br>redes sociais</span>
+            </div>
+            <figcaption>
+              <h3>Site institucional</h3>
+              <p>É o endereço oficial da empresa na internet. Tem algumas páginas que contam quem vocês são, o que fazem, onde ficam e como falar com vocês.</p>
+              <p><strong>Serve para passar confiança.</strong> Quando alguém recebe uma indicação ou pesquisa o nome da sua empresa no Google, é o site que mostra que o negócio é sério.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="sketch">
+            <div class="sketch__art">
+            <svg viewBox="0 0 300 210" class="sketch__svg" aria-hidden="true">
+              <path class="s" d="M70 8c55-2 110 1 160 0l-2 196c-50 1-105-1-157 0Z"/>
+              <path class="s" d="M71 28c50 1 105-1 158 1"/>
+              <path class="s thick" d="M92 52c40-1 80 1 116 0M104 68c30 1 62-1 92 0"/>
+              <path class="s faint" d="M92 96c40 1 80-1 116 0M92 110c40-1 80 1 116 0M92 124c30 0 60 1 90 0"/>
+              <path class="o fill" d="M112 150c25-1 52 1 76 0v22c-25 1-52-1-76 0Z"/>
+            </svg>
+            <span class="hand sketch__n3">uma página só</span>
+            <span class="hand sketch__n4">tudo leva<br>pra esse botão →</span>
+            </div>
+            <figcaption>
+              <h3>Landing page</h3>
+              <p>É uma página única com um objetivo só: fazer o visitante tomar uma ação, seja comprar, chamar no WhatsApp ou deixar o contato. Não tem menu nem nada que distraia.</p>
+              <p><strong>Serve para vender uma coisa específica.</strong> É a página que aparece quando alguém clica num anúncio, num link de lançamento, numa promoção ou num evento.</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="compare-wrap">
+          <table class="compare">
+            <thead>
+              <tr><th></th><th>Site institucional</th><th>Landing page</th></tr>
+            </thead>
+            <tbody>
+              <tr><th>Páginas</th><td>Várias (início, sobre, serviços, contato…)</td><td>Uma só, de cima a baixo</td></tr>
+              <tr><th>Objetivo</th><td>Apresentar a empresa e passar confiança</td><td>Levar a uma ação: comprar, chamar, se inscrever</td></tr>
+              <tr><th>Quando usar</th><td>Sempre. É a "casa" da empresa na internet</td><td>Em anúncios, lançamentos, promoções e eventos</td></tr>
+              <tr><th>Exemplo</th><td>Uma clínica mostrando a equipe, as especialidades e o endereço</td><td>A mesma clínica divulgando uma campanha de clareamento</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Os trabalhos são listados no portfolio-dados.js (sites) -->
+        <div class="cases__group cases__group--sites">
+          <p class="mono cases__label"><span>Portfólio · sites</span><span>institucional · landing page</span></p>
+          <div class="cases" id="casesSites"></div>
+          <a class="more-link" href="portfolio.html#sites">Clique para ver mais <span>→</span></a>
+        </div>
+
+        <p class="hand sites__tip">Ficou na dúvida? Chama a gente que ajuda a escolher.</p>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="block" id="como">
+      <div class="wrap">
+        <div class="block__bar mono"><span>00:05:00:00</span><span>Como funciona</span></div>
+        <div class="block__head">
+          <h2>Como funciona</h2>
+          <p>Quatro etapas, sem burocracia. A gente conversa pelo WhatsApp mesmo.</p>
+        </div>
+
+        <ol class="steps">
+          <li style="--w:22">
+            <span class="mono">00:04:01</span>
+            <h3>Conversa</h3>
+            <p>Você conta o que precisa e a gente entende a empresa, o público e o jeito de falar.</p>
+          </li>
+          <li style="--w:22">
+            <span class="mono">00:04:02</span>
+            <h3>Material</h3>
+            <p>Você manda vídeos, fotos e referências pelo WhatsApp ou Google Drive.</p>
+          </li>
+          <li style="--w:34" class="steps__main">
+            <span class="mono">00:04:03</span>
+            <h3>A gente edita e cria</h3>
+            <p>É a parte mais longa, e é com a gente: edição, artes ou desenvolvimento do site.</p>
+          </li>
+          <li style="--w:22">
+            <span class="mono">00:04:04</span>
+            <h3>Ajuste &amp; entrega</h3>
+            <p>Você vê, pede o que quiser mudar e recebe tudo pronto para usar.</p>
+          </li>
+        </ol>
+
+        <div class="sticker" aria-label="Aviso">
+          <strong>Não fazemos gravação presencial.</strong>
+          <span>Você grava (até no celular serve) e a gente cuida do resto. Por isso fica mais rápido e mais barato.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="block block--end" id="contato">
+      <div class="wrap">
+        <div class="block__bar mono"><span>00:06:00:00</span><span>Contato</span></div>
+
+        <div class="end">
+          <div class="end__left">
+            <h2 class="end__title">Bora<br>conversar?</h2>
+            <a href="https://wa.me/5500000000000" class="end__wa" target="_blank" rel="noopener">Chamar no WhatsApp <span>→</span></a>
+            <ul class="end__other mono">
+              <li><a href="mailto:contato@nexor.com.br">contato@nexor.com.br</a></li>
+              <li><a href="https://instagram.com/" target="_blank" rel="noopener">@nexor</a></li>
+            </ul>
+          </div>
+
+          <form class="note" id="contactForm">
+            <p class="hand note__title">ou deixa um recado aqui:</p>
+            <label><span>Seu nome</span><input type="text" name="nome" required></label>
+            <label><span>Empresa</span><input type="text" name="empresa"></label>
+            <label><span>Precisa de quê?</span>
+              <select name="interesse">
+                <option>Vídeo em pé (Reels, TikTok…)</option>
+                <option>Vídeo deitado (YouTube)</option>
+                <option>Carrossel, posts e stories</option>
+                <option>Banner ou tratamento de foto</option>
+                <option>Logo e identidade</option>
+                <option>Site institucional</option>
+                <option>Landing page</option>
+                <option>Ainda não sei</option>
+              </select>
+            </label>
+            <label><span>Conta mais</span><textarea name="mensagem" rows="2"></textarea></label>
+            <button type="submit">Enviar pelo WhatsApp →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bottom">
+    <div class="wrap bottom__in">
+      <img src="assets/nexor-logo-fundo-escuro.svg" alt="Nexor" width="96" height="23">
+      <span class="mono">Edição · Design · Sites</span>
+      <span class="mono">© <span id="year"></span> Nexor</span>
+    </div>
+  </footer>
+
+  <script src="portfolio-dados.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

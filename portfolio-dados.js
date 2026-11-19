@@ -1,0 +1,86 @@
+/* =========================================================
+   PORTFÓLIO DA NEXOR — é aqui que vocês colocam os trabalhos.
+   Vale para as duas páginas:
+     - página inicial: mostra só uma amostra de cada área
+       (os trabalhos já prontos aparecem primeiro);
+     - portfolio.html: mostra tudo.
+
+   COMO COLOCAR UM TRABALHO
+   1. Coloque o arquivo na pasta  site-institucional/assets/portfolio/
+      Vídeo: .mp4 ou .webm   ·   Imagem: .png, .jpg, .svg ou .webp
+   2. Escreva o nome do arquivo em `arquivo`, entre as aspas.
+      Ex.: arquivo: "reels-clinica-sorriso.mp4"
+   3. Preencha `titulo` e `cliente` (o cliente é opcional).
+
+   O QUE CADA TIPO ACEITA
+   - Vídeos ............ vídeo (.mp4)
+   - Carrossel ......... VÁRIAS imagens, uma por tela, na ordem, em `imagens`:
+                         imagens: ["clinica-1.png", "clinica-2.png", "clinica-3.png"]
+                         Vira um carrossel de verdade: arrasta para o lado ou usa as setas.
+   - Post de imagem única .. só imagem (.png, .jpg, .svg ou .webp)
+   - Stories ........... vídeo OU imagem
+   - Marca e sites ..... vídeo ou imagem
+
+   Vaga com `arquivo` vazio aparece como "em breve".
+   Para ter mais vagas, é só copiar uma linha. Para tirar, apague a linha.
+   `formato`: "9:16" (em pé), "4:5" (feed), "1:1" (quadrado) ou "16:9" (deitado).
+
+   Nos VÍDEOS, a pessoa clica no play e assiste com som.
+   Em DESIGN e SITES, o vídeo roda sozinho, sem som e em repetição.
+   ========================================================= */
+const PORTFOLIO = {
+  videos: [
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo deitado", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo deitado", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo deitado", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo deitado", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+  ],
+
+  // Design · para as redes sociais
+  redes: [
+    // carrossel: uma imagem por tela, na ordem. Ex.: imagens: ["loja-1.png", "loja-2.png"]
+    { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
+    { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
+    { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
+    { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
+    // post de imagem única: só imagem (.png, .jpg, .svg, .webp)
+    { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
+    // stories: vídeo (.mp4) ou imagem (.png, .jpg, .svg, .webp)
+    { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+  ],
+
+  // Design · para a marca
+  marca: [
+    { tipo: "Logo & identidade", formato: "1:1", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Logo & identidade", formato: "1:1", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Logo & identidade", formato: "1:1", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Logo & identidade", formato: "1:1", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Banner", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Banner", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Tratamento de foto", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Tratamento de foto", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Tratamento de foto", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Tratamento de foto", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
+  ],
+
+  sites: [
+    { tipo: "Site institucional", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Site institucional", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Landing page", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Landing page", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+  ],
+};
