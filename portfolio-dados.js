@@ -30,7 +30,7 @@
    ========================================================= */
 const PORTFOLIO = {
   videos: [
-    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "Vídeo de apresentação do site", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/video-site.mp4" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
@@ -47,17 +47,19 @@ const PORTFOLIO = {
   // Design · para as redes sociais
   redes: [
     // carrossel: uma imagem por tela, na ordem. Ex.: imagens: ["loja-1.png", "loja-2.png"]
-    { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
+    { tipo: "Carrossel", formato: "4:5", titulo: "Fissura, trinca ou rachadura?", cliente: "Henrique Valadares · Engenharia Civil", imagens: [
+      "assets/portfolio/henrique-valadares/carrossel-01-capa.jpg", "assets/portfolio/henrique-valadares/carrossel-02-fissura.jpg", "assets/portfolio/henrique-valadares/carrossel-03-trinca.jpg", "assets/portfolio/henrique-valadares/carrossel-04-rachadura.jpg", "assets/portfolio/henrique-valadares/carrossel-05-sinais.jpg", "assets/portfolio/henrique-valadares/carrossel-06-vistoria.jpg",
+    ] },
     { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
     { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
     { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
     // post de imagem única: só imagem (.png, .jpg, .svg, .webp)
-    { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Post de imagem única", formato: "4:5", titulo: "Post para o Instagram", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/post-unico.jpg" },
     { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
     // stories: vídeo (.mp4) ou imagem (.png, .jpg, .svg, .webp)
-    { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Stories", formato: "9:16", titulo: "Story para o Instagram", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/story.jpg" },
     { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
@@ -65,7 +67,7 @@ const PORTFOLIO = {
 
   // Design · para a marca
   marca: [
-    { tipo: "Logo & identidade", formato: "1:1", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Logo & identidade", formato: "1:1", titulo: "Logo e identidade visual", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/logo-identidade.png" },
     { tipo: "Logo & identidade", formato: "1:1", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Logo & identidade", formato: "1:1", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Logo & identidade", formato: "1:1", titulo: "", cliente: "", arquivo: "" },
@@ -78,7 +80,7 @@ const PORTFOLIO = {
   ],
 
   sites: [
-    { tipo: "Site institucional", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Site institucional", formato: "16:9", titulo: "Site de engenharia civil", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/site.jpg" },
     { tipo: "Site institucional", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Landing page", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Landing page", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
