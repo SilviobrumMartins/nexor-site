@@ -32,7 +32,7 @@ const PORTFOLIO = {
   videos: [
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "Vídeo de apresentação do site", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/video-site.mp4" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "Vídeo de apresentação do site", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/video-site.mp4" },
-    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "Animação 3D: do terreno à casa pronta", cliente: "Projeto residencial · Animação 3D", arquivo: "assets/portfolio/casa-3d/video-casa-3d.mp4" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
@@ -53,17 +53,19 @@ const PORTFOLIO = {
     { tipo: "Carrossel", formato: "4:5", titulo: "Gelato, sorvete ou sorbet?", cliente: "Brisa · Gelateria Artesanal", imagens: [
       "assets/portfolio/brisa-gelateria/carrossel-01-capa.jpg", "assets/portfolio/brisa-gelateria/carrossel-02-sorvete.jpg", "assets/portfolio/brisa-gelateria/carrossel-03-gelato.jpg", "assets/portfolio/brisa-gelateria/carrossel-04-sorbet.jpg", "assets/portfolio/brisa-gelateria/carrossel-05-sinais.jpg", "assets/portfolio/brisa-gelateria/carrossel-06-prove.jpg",
     ] },
-    { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
+    { tipo: "Carrossel", formato: "4:5", titulo: "4 sinais de que a elétrica pede socorro", cliente: "Rafael Duarte · Engenharia Elétrica", imagens: [
+      "assets/portfolio/rafael-duarte/carrossel-01-capa.jpg", "assets/portfolio/rafael-duarte/carrossel-02-disjuntor.jpg", "assets/portfolio/rafael-duarte/carrossel-03-tomada.jpg", "assets/portfolio/rafael-duarte/carrossel-04-luz.jpg", "assets/portfolio/rafael-duarte/carrossel-05-choque.jpg", "assets/portfolio/rafael-duarte/carrossel-06-vistoria.jpg",
+    ] },
     { tipo: "Carrossel", formato: "4:5", titulo: "", cliente: "", imagens: [] },
     // post de imagem única: só imagem (.png, .jpg, .svg, .webp)
     { tipo: "Post de imagem única", formato: "4:5", titulo: "Post para o Instagram", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/post-unico.jpg" },
     { tipo: "Post de imagem única", formato: "4:5", titulo: "Post para o Instagram", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/post-unico.jpg" },
-    { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Post de imagem única", formato: "4:5", titulo: "Post para o Instagram", cliente: "Rafael Duarte · Engenharia Elétrica", arquivo: "assets/portfolio/rafael-duarte/post-unico.jpg" },
     { tipo: "Post de imagem única", formato: "4:5", titulo: "", cliente: "", arquivo: "" },
     // stories: vídeo (.mp4) ou imagem (.png, .jpg, .svg, .webp)
     { tipo: "Stories", formato: "9:16", titulo: "Story para o Instagram", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/story.jpg" },
     { tipo: "Stories", formato: "9:16", titulo: "Story para o Instagram", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/story.jpg" },
-    { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Stories", formato: "9:16", titulo: "Story para o Instagram", cliente: "Rafael Duarte · Engenharia Elétrica", arquivo: "assets/portfolio/rafael-duarte/story.jpg" },
     { tipo: "Stories", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
   ],
 
