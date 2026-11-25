@@ -127,6 +127,7 @@ function caseCard(v, { comSom = false, flex = false } = {}) {
     vid.playsInline = true;
     vid.preload = "metadata";
     vid.setAttribute("aria-label", v.titulo || v.tipo);
+    if (v.capa) { vid.poster = v.capa; vid.preload = "none"; } // capa opcional (senão, o primeiro quadro)
     if (comSom) {
       vid.src = `${src}#t=0.1`; // o primeiro quadro vira a capa
       vid.dataset.som = "";

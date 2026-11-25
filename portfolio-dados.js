@@ -11,6 +11,8 @@
    2. Escreva o nome do arquivo em `arquivo`, entre as aspas.
       Ex.: arquivo: "reels-clinica-sorriso.mp4"
    3. Preencha `titulo` e `cliente` (o cliente é opcional).
+   4. (Opcional, só vídeo) `capa`: imagem mostrada antes do play.
+      Sem capa, aparece o primeiro quadro do vídeo.
 
    O QUE CADA TIPO ACEITA
    - Vídeos ............ vídeo (.mp4)
@@ -33,7 +35,7 @@ const PORTFOLIO = {
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "Vídeo de apresentação do site", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/video-site.mp4" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "Vídeo de apresentação do site", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/video-site.mp4" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "Animação 3D: do terreno à casa pronta", cliente: "Projeto residencial · Animação 3D", arquivo: "assets/portfolio/casa-3d/video-casa-3d.mp4" },
-    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "Casa 3D no terreno real, com tour", cliente: "Rafael Duarte · Engenharia", arquivo: "assets/portfolio/rafael-duarte/video-casa-terreno-real.mp4", capa: "assets/portfolio/rafael-duarte/capa-video-casa-terreno-real.jpg" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
