@@ -32,11 +32,11 @@
    ========================================================= */
 const PORTFOLIO = {
   videos: [
+    { tipo: "Vídeo em pé", formato: "9:16", titulo: "Reels de ofertas com a voz do dono", cliente: "Imperial Store · iPhones", arquivo: "assets/portfolio/imperial-store/video-reels.mp4", capa: "assets/portfolio/imperial-store/capa-video-reels.jpg" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "Vídeo de apresentação do site", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/video-site.mp4" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "Vídeo de apresentação do site", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/video-site.mp4" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "Animação 3D: do terreno à casa pronta", cliente: "Projeto residencial · Animação 3D", arquivo: "assets/portfolio/casa-3d/video-casa-3d.mp4" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "Casa 3D no terreno real, com tour", cliente: "Rafael Duarte · Engenharia", arquivo: "assets/portfolio/rafael-duarte/video-casa-terreno-real.mp4", capa: "assets/portfolio/rafael-duarte/capa-video-casa-terreno-real.jpg" },
-    { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
     { tipo: "Vídeo em pé", formato: "9:16", titulo: "", cliente: "", arquivo: "" },
@@ -86,9 +86,10 @@ const PORTFOLIO = {
   ],
 
   sites: [
-    { tipo: "Site institucional", formato: "16:9", titulo: "Site de engenharia civil", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/site.jpg" },
-    { tipo: "Site institucional", formato: "16:9", titulo: "Site de gelateria", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/site.jpg" },
-    { tipo: "Landing page", formato: "16:9", titulo: "Landing page de curso online", cliente: "Bolo que Vende · Curso de Confeitaria", arquivo: "assets/portfolio/bolo-que-vende/site.jpg" },
-    { tipo: "Landing page", formato: "16:9", titulo: "", cliente: "", arquivo: "" },
+    { tipo: "Site institucional", formato: "16:9", titulo: "Site de engenharia civil", cliente: "Henrique Valadares · Engenharia Civil", arquivo: "assets/portfolio/henrique-valadares/site-rolagem.mp4", capa: "assets/portfolio/henrique-valadares/site-rolagem-capa.jpg" },
+    { tipo: "Site institucional", formato: "16:9", titulo: "Site de gelateria", cliente: "Brisa · Gelateria Artesanal", arquivo: "assets/portfolio/brisa-gelateria/site-rolagem.mp4", capa: "assets/portfolio/brisa-gelateria/site-rolagem-capa.jpg" },
+    { tipo: "Landing page", formato: "16:9", titulo: "Landing page de serviço", cliente: "Polar Climatização · Ar-condicionado", arquivo: "assets/portfolio/polar-climatizacao/site-rolagem.mp4", capa: "assets/portfolio/polar-climatizacao/site-rolagem-capa.jpg" },
+    { tipo: "Landing page", formato: "16:9", titulo: "Landing page de curso online", cliente: "Make em 10 Minutos · Curso de Automaquiagem", arquivo: "assets/portfolio/make-10-minutos/site-rolagem.mp4", capa: "assets/portfolio/make-10-minutos/site-rolagem-capa.jpg" },
+    { tipo: "Landing page", formato: "16:9", titulo: "Landing page de curso online", cliente: "Bolo que Vende · Curso de Confeitaria", arquivo: "assets/portfolio/bolo-que-vende/site-rolagem.mp4", capa: "assets/portfolio/bolo-que-vende/site-rolagem-capa.jpg" },
   ],
 };
